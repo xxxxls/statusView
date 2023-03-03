@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.xxxxls.status.SuperStatusView
+        android:id="@+id/statusView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/layout_operation"
+        app:layout_constraintTop_toTopOf="parent"
+        app:status_empty_layout="@layout/base_status_empty"
+        app:status_error_layout="@layout/base_status_error"
+        app:status_loading_layout="@layout/base_status_loading"
+        app:status_no_network_layout="@layout/base_status_no_network">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="内容视图"
+            android:textSize="60sp" />
+
+    </com.xxxxls.status.SuperStatusView>
+
+    <include
+        android:id="@+id/layout_operation"
+        layout="@layout/layout_status_operation"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

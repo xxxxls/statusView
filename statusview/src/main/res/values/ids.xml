@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  空数据视图  -->
+    <item name="status_empty_view" type="id" />
+    <!--  错误视图  -->
+    <item name="status_error_view" type="id" />
+    <!--  加载视图  -->
+    <item name="status_loading_view" type="id" />
+    <!--  内容视图  -->
+    <item name="status_content_view" type="id" />
+    <!--  无网络视图  -->
+    <item name="status_no_network_view" type="id" />
+
+
+    <!--  重试操作view  -->
+    <item name="status_retry_view" type="id" />
+</resources>

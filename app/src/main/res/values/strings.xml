@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">StatusView</string>
+
+    <string name="base_exception_network">网络错误</string>
+    <string name="base_exception_connect">连接失败</string>
+    <string name="base_exception_parse_json">json解析失败</string>
+    <string name="base_exception_parse_host">无法解析该域名</string>
+    <string name="base_exception_code">数据加载失败</string>
+    <string name="base_empty_data">暂无数据</string>
+    <string name="base_error_data">数据加载失败</string>
+</resources>
